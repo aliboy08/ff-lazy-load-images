@@ -27,11 +27,6 @@ FFLazyLoadImages = function(callback){
 	}
 	
 	function loadImages(){
-		
-		if(typeof callback === 'function'){
-			console.log('have callback function');
-		}
-		
 		// Load Images
 		images.forEach(function(element, index){
 			var img_src = element.getAttribute('data-src');

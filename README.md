@@ -7,7 +7,16 @@ Script is using native/vanilla javascript, no dependency
 To run, call:
 FFLazyLoadImages().init();
 
-Callback function on images load complete available:
-FFLazyLoadImages(function(){
- // after images are loaded ...
-}).init();
+Options:
+ onComplete: function
+ animationClass: string
+ showStyle: string, options = "opacity"(default) or "display"
+
+ imageWrap: mixed, default object, set to false(boolean) to disable, wrap images in container
+ imageWrap: {
+   class: string, wrapper class, default = 'image-lazyload-container'
+   tag: string, html tag for wrap, default = 'span'
+ }
+ 
+selector: string, default = 'img', for querySelectorAll
+exclude: string, class to exclude(without "."), space separated for multiple values

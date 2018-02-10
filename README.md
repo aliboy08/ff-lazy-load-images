@@ -1,4 +1,4 @@
-# ff-lazy-load-images
+# FF Lazy Load Images v2.0
 
 Prevent Images from loading, then load the images when the html document is ready
 
@@ -7,6 +7,7 @@ Script is using native/vanilla javascript, no dependency
 To run, call:
 FFLazyLoadImages().init();
 
+```
 Options:
  onComplete: function
  animationClass: string
@@ -17,6 +18,7 @@ Options:
    class: string, wrapper class, default = 'image-lazyload-container'
    tag: string, html tag for wrap, default = 'span'
  }
+ ```
  
 selector: string, default = 'img', for querySelectorAll
 exclude: string, class to exclude(without "."), space separated for multiple values

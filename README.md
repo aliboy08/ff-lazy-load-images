@@ -6,6 +6,9 @@ Script is using native/vanilla javascript, no dependency
 
 To run, call: `FFLazyLoadImages().init();`
 
+demo: https://aliboy08.github.io/ff-lazy-load-images/
+
+
 ```
 Options:
  onComplete: function

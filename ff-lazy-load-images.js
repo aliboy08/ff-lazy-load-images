@@ -1,15 +1,8 @@
-/*! FF Lazyload Images v2.0 */
-// Options
-// onComplete: function
-// animationClass: string
-// showStyle: string, options = "opacity"(default) or "display"
-
-// imageWrap: mixed, default object, set to false(boolean) to disable, wrap images in container
-//		class: string, wrapper class, default = 'image-lazyload-container'
-//		tag: string, html tag for wrap, default = 'span'
-//
-// selector: string, default = 'img', for querySelectorAll
-// exclude: string, class to exclude(without "."), space separated for multiple values
+/*!
+ * FF Lazyload Images v2.0
+ * (c) 2018 Five by Five
+ * license: http://www.opensource.org/licenses/mit-license.php
+ */
 FFLazyLoadImages = function(options = {}){
 
 	// Defaults:

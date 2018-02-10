@@ -10,7 +10,7 @@ demo: https://aliboy08.github.io/ff-lazy-load-images/
 
 
 ```
-Options:
+options : {
  onComplete: function
  animationClass: string
  showStyle: string, options = "opacity"(default) or "display"
@@ -20,8 +20,8 @@ Options:
    class: string, wrapper class, default = 'image-lazyload-container'
    tag: string, html tag for wrap, default = 'span'
  }
- ```
- 
-selector: string, default = 'img', for querySelectorAll
 
-exclude: string, class to exclude(without "."), space separated for multiple values
+ selector: string, default = 'img', for querySelectorAll
+ exclude: string, class to exclude(without "."), space separated for multiple values
+}
+ ```

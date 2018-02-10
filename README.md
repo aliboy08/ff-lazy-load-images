@@ -4,8 +4,7 @@ Prevent Images from loading, then load the images when the html document is read
 
 Script is using native/vanilla javascript, no dependency
 
-To run, call:
-FFLazyLoadImages().init();
+To run, call: `FFLazyLoadImages().init();`
 
 ```
 Options:
@@ -21,4 +20,5 @@ Options:
  ```
  
 selector: string, default = 'img', for querySelectorAll
+
 exclude: string, class to exclude(without "."), space separated for multiple values
